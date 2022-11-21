@@ -1,0 +1,66 @@
+/* --primary-font: font-family: 'Kaisei Tokumin', serif;
+    --secondary-font: font-family: 'Niramit', sans-serif
+    green color: #464e2e */
+
+.header {
+  background-color: #fbf8f1;
+  padding: 80px 0;
+  margin-top: 60px;
+}
+h1 {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 90px;
+}
+
+h3 {
+  font-family: "Niramit", sans-serif;
+  font-size: 24px;
+}
+
+.primary-button {
+  background-color: rgb(70, 78, 46, 0.6);
+  color: white;
+  padding: 10px 30px;
+  transition: all 0.1s ease-in-out;
+}
+.primary-button:hover {
+  background-color: white;
+  border: 1px solid rgb(70, 78, 46, 0.6);
+  color: rgb(70, 78, 46);
+}
+.secondary-button {
+  background-color: white;
+  border: 1px solid rgb(70, 78, 46, 0.6);
+  color: rgb(70, 78, 46);
+  padding: 10px 30px;
+  transition: all 0.1s ease-in-out;
+}
+.secondary-button:hover {
+  background-color: rgb(70, 78, 46, 0.6);
+  color: white;
+  padding: 10px 30px;
+}
+
+.intro-section {
+  padding: 50px 0;
+}
+.intro-section p {
+  font-family: "Niramit", sans-serif;
+  font-size: 18px;
+}
+.project-image {
+  background-color: #fbf8f1;
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.project-title {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 54px;
+  margin: 100px 50px 0 10px;
+}
+.project-title-weather {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 54px;
+  margin: 50px 50px 0 10px;
+}

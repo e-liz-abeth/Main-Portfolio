@@ -52,20 +52,20 @@ h3 {
   background-color: #fbf8f1;
   max-width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 10px;
 }
 .project-title {
   font-family: "Kaisei Tokumin", serif;
   font-size: 54px;
-  margin: 100px 50px 0 10px;
+  margin: 70px 50px 0 0;
 }
 .project-title-weather {
   font-family: "Kaisei Tokumin", serif;
   font-size: 54px;
-  margin: 50px 50px 0 10px;
+  margin: 50px 50px 0 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .header {
     padding: 20px;
   }
@@ -80,5 +80,18 @@ h3 {
   }
   .primary-button {
     margin: 10px;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-title {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  .project-title-weather {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
   }
 }

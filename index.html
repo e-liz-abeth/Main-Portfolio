@@ -16,28 +16,36 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/0bb233f1c1.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Elizabeth Rios</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="" alt="LOGO" class="img-fluid logo" />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="container header">
-      <h1 class="text-center mb-2">Elizabeth Rios</h1>
+      <h1 class="text-center mb-3">Elizabeth Rios</h1>
       <h3 class="text-center mb-4">Frontend Developer based in California</h3>
-      <div class="row text-center d-flex mt-2">
-        <div class="col-md-6 mb-3">
-          <!-- <p>
-            Welcome Stranger! <br />
-            I learned some coding languages and look at me now!
-          </p> -->
+      <div
+        class="row text-center d-flex justify-content-center mt-3 button-section"
+      >
+        <div class="col-md-2">
+          <a href="" class="btn primary-button">About</a>
         </div>
-
-        <div class="row text-center d-flex justify-content-center">
-          <div class="col-md-2">
-            <a href="" class="btn primary-button">About</a>
-          </div>
-          <div class="col-md-2">
-            <a href="" class="btn primary-button">Contact</a>
-          </div>
+        <div class="col-md-2">
+          <a href="" class="btn primary-button">Contact</a>
         </div>
       </div>
     </div>
@@ -89,6 +97,50 @@
           <a href="" class="btn secondary-button mt-4"> Learn More</a>
         </div>
       </div>
+      <footer>
+        <div class="inquiry-box mb-5 d-none d-md-flex justify-content-between">
+          <div class="inquiry-box-text">
+            <h1>Work Inquiry</h1>
+            <p>Let's work together</p>
+          </div>
+          <div class="inquiry-box-btn mt-5">
+            <a href="" class="btn primary-button">Contact Liz</a>
+          </div>
+        </div>
+        <!-- <div class="social-email">
+          <h3>
+            <a href="mailto:lizrios06@gmail.com" target="_blank">
+              lizrios06@gmail.com</a
+            >
+          </h3>
+          <hr />
+        </div> -->
+        <hr />
+        <div
+          class="d-flex justify-content-center text-center mt-4 social-media"
+        >
+          <div class="row mt-3">
+            <div class="col-4">
+              <a href="" class="social-icons"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+              <p class="social-text mt-2">SheCodes</p>
+            </div>
+            <div class="col-4">
+              <a href="" class="social-icons"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <p class="social-text mt-2">LinkedIn</p>
+            </div>
+            <div class="col-4">
+              <a href="" class="social-icons"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <p class="social-text mt-2">GitHub</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

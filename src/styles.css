@@ -1,11 +1,27 @@
 /* --primary-font: font-family: 'Kaisei Tokumin', serif;
     --secondary-font: font-family: 'Niramit', sans-serif
     green color: #464e2e */
-
+ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.logo {
+  max-width: auto;
+  max-height: 50px;
+}
+nav a {
+  text-decoration: none;
+}
 .header {
   background-color: #fbf8f1;
   padding: 80px 0;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 h1 {
   font-family: "Kaisei Tokumin", serif;
@@ -64,7 +80,39 @@ h3 {
   font-size: 54px;
   margin: 50px 50px 0 0;
 }
-
+.inquiry-box {
+  background-color: #fbf8f1;
+  padding: 50px 30px;
+}
+.inquiry-box-text h1 {
+  font-size: 50px;
+}
+.inquiry-box-text {
+  margin: 20px 30px;
+}
+.inquiry-box-text p {
+  font-size: 24px;
+}
+.inquiry-box-btn {
+  margin: 20px 30px;
+}
+.social-icons {
+  background-color: #fbf8f1;
+  font-size: 24px;
+  padding: 10px 15px;
+  margin: 15px;
+  border-radius: 50%;
+  color: rgb(70, 78, 46, 0.6);
+  transition: all 0.1s ease-in-out;
+}
+.social-icons:hover {
+  background-color: rgb(70, 78, 46, 0.6);
+  color: white;
+}
+.social-text {
+  color: rgb(70, 78, 46, 0.6);
+  font-size: 12px;
+}
 @media (max-width: 1000px) {
   .header {
     padding: 20px;
@@ -77,9 +125,11 @@ h3 {
   h3 {
     font-size: 18px;
     text-align: center;
+    margin: 0;
   }
   .primary-button {
-    margin: 10px;
+    text-align: center;
+    margin: 5px;
   }
   .project-section {
     text-align: center;

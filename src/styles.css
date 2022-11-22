@@ -64,3 +64,21 @@ h3 {
   font-size: 54px;
   margin: 50px 50px 0 10px;
 }
+
+@media (max-width: 900px) {
+  .header {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 64px;
+    padding: 10px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .primary-button {
+    margin: 10px;
+  }
+}

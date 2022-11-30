@@ -113,6 +113,17 @@ h3 {
   color: rgb(70, 78, 46, 0.6);
   font-size: 12px;
 }
+.profile-pic {
+  max-width: 100%;
+  border: 1px solid #464e2e;
+}
+.bio-section {
+  padding: 80px;
+}
+.skill-icon {
+  font-size: 48px;
+  color: #464e2e;
+}
 @media (max-width: 1000px) {
   .header {
     padding: 20px;
@@ -143,5 +154,17 @@ h3 {
     font-size: 36px;
     margin: 0;
     padding: 0;
+  }
+  .profile-pic {
+    border: 1px solid #464e2e;
+    margin: auto;
+  }
+  .bio-section {
+    padding: 0;
+  }
+  .bio-text {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
   }
 }

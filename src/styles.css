@@ -21,7 +21,7 @@ nav a {
 }
 .header {
   background-color: #fbf8f1;
-  padding: 80px 0;
+  padding: 150px 0;
   margin-top: 20px;
 }
 h1 {
@@ -37,7 +37,8 @@ h3 {
 .primary-button {
   background-color: rgb(70, 78, 46, 0.6);
   color: white;
-  padding: 10px 30px;
+  font-size: 16px;
+  padding: 15px 35px;
   transition: all 0.1s ease-in-out;
 }
 .primary-button:hover {
@@ -90,19 +91,36 @@ h3 {
 }
 .inquiry-box {
   background-color: #fbf8f1;
-  padding: 50px 30px;
+  padding: 30px 30px;
 }
 .inquiry-box-text h1 {
-  font-size: 50px;
+  font-size: 64px;
 }
 .inquiry-box-text {
   margin: 20px 30px;
+  padding-left: 70px;
 }
 .inquiry-box-text p {
   font-size: 24px;
 }
 .inquiry-box-btn {
   margin: 20px 30px;
+  padding: 20px 70px 0 0;
+}
+.primary-button-footer {
+  background-color: rgb(70, 78, 46, 0.6);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px 50px;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+}
+.primary-button-footer:hover {
+  background-color: white;
+  border: 1px solid rgb(70, 78, 46, 0.6);
+  color: rgb(70, 78, 46);
 }
 .social-icons {
   background-color: #fbf8f1;
@@ -135,6 +153,28 @@ h3 {
 .code-used {
   list-style: none;
   display: inline-flex;
+}
+.project-icon {
+  font-size: 30px;
+  color: rgb(70, 78, 46, 0.6);
+}
+.contact-info {
+  font-size: 28px;
+  font-weight: 700;
+}
+.contact-links {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #464e2e;
+  transition: all 0.1s ease-in-out;
+}
+.contact-links:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #464e2e;
+  color: #464e2e;
+  padding: 5px;
 }
 @media (max-width: 1000px) {
   .header {
@@ -182,5 +222,12 @@ h3 {
     font-size: 30px;
     margin: 20px 0;
     text-align: center;
+  }
+  .second-project {
+    margin-top: 40px;
+  }
+  .contact-section p {
+    text-align: center;
+    padding: 5px;
   }
 }

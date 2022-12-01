@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal and professional portfolio of Elizabeth Rios, front end developer in the making"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +30,18 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="" alt="LOGO" class="img-fluid logo" />
+        <a href="index.html" title="Homepage"
+          ><img
+            src="images/big-logo.png"
+            alt="main logo"
+            class="img-fluid d-none d-md-block logo"
+        /></a>
+        <a href="index.html" title="Homepage"
+          ><img
+            src="images/small-logo.png"
+            alt="mini logo"
+            class="logo d-block d-md-none"
+        /></a>
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="about-me.html">About</a></li>
@@ -36,16 +51,16 @@
       </nav>
     </div>
     <div class="header">
-      <h1 class="text-center mb-4">Elizabeth Rios</h1>
-      <h3 class="text-center mb-5">Frontend Developer based in California</h3>
+      <h1 class="text-center mb-3">Elizabeth Rios</h1>
+      <h3 class="text-center mb-4">Frontend Developer based in California</h3>
       <div
         class="row text-center d-flex justify-content-center mt-3 button-section"
       >
         <div class="col-md-2">
-          <a href="about-me.html" class="btn primary-button">About Me</a>
+          <a href="about-me.html" class="btn primary-button">About</a>
         </div>
         <div class="col-md-2">
-          <a href="" class="btn primary-button">Contact</a>
+          <a href="contact-me.html" class="btn primary-button">Contact</a>
         </div>
       </div>
     </div>
@@ -62,14 +77,18 @@
             The Sims <br />
             Landing Page
           </h2>
-          <a href="" class="btn secondary-button mt-4"> Learn More</a>
+          <a href="projects.html" class="btn secondary-button mt-4">
+            Learn More</a
+          >
         </div>
       </div>
       <!-- weather -->
       <div class="row m-5">
         <div class="col">
           <h2 class="project-title-weather">Weather Application</h2>
-          <a href="" class="btn secondary-button mt-4"> Learn More</a>
+          <a href="projects.html" class="btn secondary-button mt-4">
+            Learn More</a
+          >
         </div>
         <div class="col d-none d-md-block">
           <img
@@ -90,7 +109,9 @@
         <!-- portfolio project -->
         <div class="col">
           <h2 class="project-title">Portfolio Project</h2>
-          <a href="" class="btn secondary-button mt-4"> Learn More</a>
+          <a href="projects.html" class="btn secondary-button mt-4">
+            Learn More</a
+          >
         </div>
       </div>
       <!-- work inquiry -->
@@ -103,7 +124,7 @@
             <p>Let's work together</p>
           </div>
           <div class="inquiry-box-btn mt-5">
-            <a href="" class="primary-button-footer">Contact</a>
+            <a href="contact-me.html" class="primary-button-footer">Contact</a>
           </div>
         </div>
         <!-- <div class="social-email">
